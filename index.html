@@ -17,6 +17,11 @@
     <title>WebStudio</title>
   </head>
   <body>
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-white">
+        <button data-modal-close>Close</button>
+      </div>
+    </div>
     <header class="header">
       <div class="top-head container">
         <!--navigation bar-->
@@ -27,11 +32,15 @@
           >
           <!--studio,portfolio,contacts-->
           <ul class="navigation-list list">
-            <li><a class="nav-link link" href="./index.html">Studio</a></li>
+            <li>
+              <a class="nav-link link" href="./index.html">Studio</a>
+            </li>
             <li>
               <a class="nav-link link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li><a class="nav-link link" href="">Contacts</a></li>
+            <li>
+              <a class="nav-link link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
         <!--contact address section-->
@@ -58,7 +67,9 @@
           <h1 class="hero-image-header">
             Effective Solutions for Your Business
           </h1>
-          <button class="hero-image-button" type="button">Order Service</button>
+          <button class="hero-image-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!--section one list of qualities of Webstudio-->
@@ -464,5 +475,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
