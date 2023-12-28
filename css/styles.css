@@ -716,26 +716,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.project-link {
-  display: block;
-}
-
-.link-portfolio {
-  text-decoration: none;
-
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-portfolio:hover,
-.link-portfolio:focus {
-  transform: translateY(0%);
-}
-
-.portfolio-img-div {
-  position: relative;
-  overflow: hidden;
-}
-
 .portfolio-paragraf-div-img {
   position: absolute;
   top: 0;
@@ -752,7 +732,22 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-paragraf-div-img:hover,
-.portfolio-paragraf-div-img:focus {
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.portfolio-img-div {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-link {
+  display: block;
+}
+
+.link-portfolio {
+  text-decoration: none;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-portfolio:hover,
+.link-portfolio:focus {
+  transform: translateY(0%);
 }
