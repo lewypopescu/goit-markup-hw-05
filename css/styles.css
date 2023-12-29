@@ -7,15 +7,6 @@
   --OCEAN: #404bbf;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-svg {
-  display: block;
-}
-
 .modal {
   width: 100%;
   height: 100%;
@@ -78,7 +69,7 @@ svg {
 
 .svg-modal-button:hover,
 .svg-modal-button:focus {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .container {
